@@ -1,0 +1,82 @@
+# ==============================
+# Node Modules
+# ==============================
+node_modules/
+*/node_modules/
+
+# ==============================
+# Logs
+# ==============================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================
+# Build Output
+# ==============================
+dist/
+build/
+client/dist/
+client/build/
+server/dist/
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Cache & Temp
+# ==============================
+.cache/
+.tmp/
+.temp/
+coverage/
+
+# ==============================
+# React Specific
+# ==============================
+*.local
+.eslintcache
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Editor / IDE
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# TypeScript
+# ==============================
+*.tsbuildinfo
+
+# ==============================
+# Testing
+# ==============================
+coverage/
+jest-cache/
+
+# ==============================
+# Misc
+# ==============================
+*.tgz
+*.pid
+*.seed
